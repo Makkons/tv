@@ -12,10 +12,15 @@
 // }
 
 // Троттлинг функции (для ресайза, ввода в инпут, скролла и т.д.)
-// import { throttle } from './functions/throttle';
-// let yourFunc = () => { console.log('throttle') };
-// let func = throttle(yourFunc);
-// window.addEventListener('resize', func);
+// Получение высоты шапки сайта (не забудьте вызвать функцию)
+import { getHeaderHeight } from './functions/header-height.js';
+getHeaderHeight();
+import { throttle } from './functions/throttle.js';
+let yourFunc = () => {
+   getHeaderHeight();
+};
+let func = throttle(yourFunc);
+window.addEventListener('resize', func);
 
 // Фикс фулскрин-блоков
 // import './functions/fix-fullheight';
@@ -36,10 +41,6 @@
 // Реализация табов
 // import GraphTabs from 'graph-tabs';
 // const tabs = new GraphTabs('tab');
-
-// Получение высоты шапки сайта (не забудьте вызвать функцию)
-// import { getHeaderHeight } from './functions/header-height';
-
 // Подключение плагина кастом-скролла
 // import 'simplebar';
 

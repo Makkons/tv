@@ -5,13 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4088bd66-1431-4010-9556-0e6836275896" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/partials/aside.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_aside.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/MullerRegular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/cover.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/svg/icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/phpmailer/Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/phpmailer/PHPMailer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/phpmailer/SMTP.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/svg/icon.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/_components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/_components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/_functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/_functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/ex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/_header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/fonts/MullerRegular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/phpmailer/Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/phpmailer/PHPMailer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/phpmailer/SMTP.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/mixins/_mini.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/mixins/_mini.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,14 +67,19 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2kC4udGIP6cnzf6p33MxNf97gNf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/makkons/work/Layout/site/tv&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -54,7 +106,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722774449081</updated>
-      <workItem from="1722774450321" duration="2419000" />
+      <workItem from="1722774450321" duration="16403000" />
+      <workItem from="1722871563413" duration="5000" />
+      <workItem from="1722893256891" duration="5000" />
     </task>
     <servers />
   </component>

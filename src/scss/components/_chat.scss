@@ -1,0 +1,114 @@
+.aside {
+   // .aside__chat
+   &__chat {
+   }
+}
+.chat {
+   box-shadow: rem(-1) 0 0 0 rgba(255, 255, 255, 0.1);
+   background: rgba(17, 17, 17, 0.4);
+   padding: rem(20) rem(20) rem(15);
+   // .chat__head
+   &__head {
+      display: flex;
+      align-items: center;
+      margin-bottom: rem(16);
+   }
+   // .chat__qr
+   &__qr {
+      width: rem(164);
+      height: rem(164);
+      margin-right: rem(20);
+   }
+   // .chat__label
+   &__label {
+      font-weight: 600;
+      font-size: rem(26);
+      line-height: normal;
+   }
+   // .chat__variations
+   &__variations {
+   }
+   // .chat__variation
+   &__variation {
+      color: #cb36cd;
+   }
+   // .chat__title
+   &__title {
+      margin: 0;
+      font-weight: 400;
+      font-size: rem(24);
+      margin-bottom: rem(16);
+   }
+   // .chat__subtitle--accent
+   &__subtitle--accent {
+      font-weight: 500;
+      color: #cb36cd;
+   }
+   // .chat__list
+   &__list {
+   }
+   // .chat__item
+   &__item {
+      padding: rem(16) rem(20);
+      &:not(:last-child) {
+         margin-bottom: rem(16);
+      }
+      &.active {
+         background: linear-gradient(180deg, #cb36cd 0%, #a600a8 100%);
+      }
+   }
+   // .chat__info
+   &__info {
+      display: flex;
+      align-items: center;
+      margin-bottom: rem(12);
+   }
+   // .chat__avatar
+   &__avatar {
+      border-radius: 100%;
+      width: rem(40);
+      height: rem(40);
+      margin-right: rem(16);
+   }
+   // .chat__person
+   &__person {
+   }
+   // .chat__name
+   &__name {
+      font-weight: 500;
+      font-size: rem(20);
+      line-height: 100%;
+      margin-bottom: rem(6);
+   }
+   // .chat__meta
+   &__meta {
+      font-weight: 400;
+      font-size: rem(14);
+      line-height: 100%;
+      opacity: 0.5;
+   }
+   // .chat__money
+   &__money {
+      align-self: flex-start;
+      margin-left: auto;
+   }
+   // .chat__content
+   &__content {
+      display: flex;
+      align-items: flex-start;
+   }
+   // .chat__text
+   &__text {
+      margin: 0;
+      font-size: rem(20);
+      line-height: normal;
+      &:not(:last-child) {
+         margin-right: rem(16);
+      }
+   }
+   // .chat__image
+   &__image {
+      width: rem(80);
+      height: auto;
+   }
+}

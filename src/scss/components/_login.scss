@@ -1,0 +1,32 @@
+.login {
+   padding-top: var(--header-height);
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   height: 100%;
+   background-image: url(../img/mockup.png);
+   background-position: bottom center;
+   background-size: rem(360);
+   background-repeat: no-repeat;
+   // .login__logo
+   &__logo {
+      width: rem(240);
+      height: rem(73);
+   }
+   // .login__title
+   &__title {
+      margin: auto 0;
+      font-weight: 700;
+      font-size: rem(30);
+      line-height: 133%;
+      text-align: center;
+   }
+   // .login__qr
+   &__qr {
+      box-sizing: content-box;
+      width: rem(200);
+      height: rem(200);
+      padding: rem(207) 0 rem(157);
+   }
+}

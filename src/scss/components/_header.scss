@@ -1,1 +1,170 @@
-// ваш код
+.header {
+   .container {
+      overflow: hidden;
+   }
+   &__wrapper {
+      display: flex;
+      transition: transform 1s ease 0s;
+      &.slide {
+         //  transform: translateX(calc(-100% - rem(20)));
+         transform: translateX(-100%);
+      }
+   }
+   // .header__ranking
+   &__ranking {
+      display: flex;
+      align-items: center;
+      min-width: 100%;
+      // margin-right: rem(20);
+   }
+   // .header__top
+   &__top {
+      display: flex;
+      align-items: center;
+      margin-right: rem(44);
+   }
+   // .header__title
+   &__title {
+      margin: 0;
+      font-weight: 700;
+      font-size: rem(30);
+      text-transform: uppercase;
+      padding: 0 rem(16);
+      margin-right: rem(4);
+   }
+   // .header__state
+   &__state {
+      display: flex;
+      align-items: center;
+   }
+   // .header__period
+   &__period {
+      display: flex;
+      align-items: center;
+      min-height: rem(46);
+      padding: 0 rem(16);
+      font-weight: 700;
+      font-size: rem(22);
+      text-transform: uppercase;
+      opacity: 0.2;
+      border-radius: rem(12);
+      background: transparent;
+      transition: opacity 0.3s ease 0s, background 0.3s ease 0s;
+      &:not(:last-child) {
+         margin-right: rem(4);
+      }
+      &.active {
+         opacity: 1;
+         background: #8c15a1;
+      }
+   }
+   // .header__places
+   &__places {
+      width: 100%;
+   }
+   // .header__list
+   &__list {
+      display: none;
+      &.active {
+         display: flex;
+      }
+   }
+   // .header__item
+   &__item {
+      font-size: rem(20);
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(17, 17, 17, 0.4);
+      border-radius: rem(8);
+      width: rem(300);
+      min-height: rem(64);
+      padding: 0 rem(18) 0 rem(32);
+      &:not(:last-child) {
+         margin-right: rem(50);
+      }
+      &::before {
+         @include pseudo;
+         width: rem(40);
+         height: rem(40);
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: contain;
+         position: absolute;
+         left: rem(-20);
+      }
+      &:nth-child(1) {
+         &::before {
+            background-image: url(../img/medal-01.png);
+         }
+      }
+      &:nth-child(2) {
+         &::before {
+            background-image: url(../img/medal-02.png);
+         }
+      }
+      &:nth-child(3) {
+         &::before {
+            background-image: url(../img/medal-03.png);
+         }
+      }
+   }
+   // .header__name
+   &__name {
+      white-space: nowrap;
+   }
+   // .header__money
+   &__money {
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+      &::before {
+         @include pseudo;
+         width: rem(4);
+         height: rem(4);
+         border-radius: 50%;
+         background: var(--light-color);
+         opacity: 0.4;
+         margin: 0 rem(12);
+      }
+   }
+   // .header__marquee
+   &__marquee {
+      flex: 1 0 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: rem(64);
+      background: rgba(17, 17, 17, 0.4);
+      border-radius: rem(8);
+      overflow: hidden;
+   }
+   // .header__text
+   &__text {
+      position: relative;
+      font-weight: 700;
+      font-size: rem(22);
+      text-transform: uppercase;
+      margin: 0 rem(140);
+      white-space: nowrap;
+      &::before,
+      &::after {
+         @include pseudo;
+         position: absolute;
+         top: 50%;
+         transform: translate(-50%);
+         width: rem(4);
+         height: rem(4);
+         border-radius: 50%;
+         background: var(--light-color);
+         opacity: 0.4;
+      }
+      &::before {
+         left: rem(-24);
+      }
+      &::after {
+         right: rem(-24);
+      }
+   }
+}
