@@ -27,14 +27,14 @@
 /* stylelint-disable value-keyword-case */
 @font-face {
   font-family: "NotoSans";
-  src: url("../fonts/../fonts/NotoSans.woff2") format("woff2");
+  src: url("../fonts/../fonts/NotoSans-f9d915cf69.woff2") format("woff2");
   font-weight: 400;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: "NotoSans";
-  src: url("../fonts/../fonts/NotoSans-Bold.woff2") format("woff2");
+  src: url("../fonts/../fonts/NotoSans-Bold-1aad4fbefa.woff2") format("woff2");
   font-weight: 700;
   font-display: swap;
   font-style: normal;
@@ -271,13 +271,13 @@ a {
   left: -1.25rem;
 }
 .header__item:nth-child(1)::before {
-  background-image: url(../img/medal-01.png);
+  background-image: url(../img/medal-01-991e5ddb0f.png);
 }
 .header__item:nth-child(2)::before {
-  background-image: url(../img/medal-02.png);
+  background-image: url(../img/medal-02-cd39cae3ee.png);
 }
 .header__item:nth-child(3)::before {
-  background-image: url(../img/medal-03.png);
+  background-image: url(../img/medal-03-01873746f8.png);
 }
 .header__name {
   white-space: nowrap;
@@ -411,7 +411,7 @@ a {
   position: absolute;
   bottom: 2rem;
   left: 10.9375rem;
-  background-image: url(../img/svg/bg-alert.svg);
+  background-image: url(../img/svg/bg-alert-f892314951.svg);
   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -475,7 +475,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  background-image: url(../img/mockup.png);
+  background-image: url(../img/mockup-bb8b756d9a.png);
   background-position: bottom center;
   background-size: 22.5rem;
   background-repeat: no-repeat;
@@ -690,7 +690,7 @@ a {
   border-radius: 0 0 2rem 2rem;
 }
 .modal__top {
-  background-image: url(../img/svg/bg-modal.svg);
+  background-image: url(../img/svg/bg-modal-0346b5070f.svg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -821,7 +821,7 @@ a {
   margin-top: auto;
   width: 35rem;
   height: 40.5rem;
-  background-image: url(../img/mockup.png);
+  background-image: url(../img/mockup-bb8b756d9a.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
