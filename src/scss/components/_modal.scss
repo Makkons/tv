@@ -1,0 +1,73 @@
+.modal {
+   position: absolute;
+   inset: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   backdrop-filter: blur(rem(80));
+   background: rgba(17, 17, 17, 0.4);
+   // .modal__container
+   &__container {
+      max-width: rem(1170);
+      width: 100%;
+      border-radius: 0 0 rem(32) rem(32);
+   }
+   &__top {
+      background-image: url(../img/svg/bg-modal.svg);
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: cover;
+      padding: 0 rem(56) rem(64);
+   }
+   // .modal__head
+   &__head {
+      display: flex;
+      align-items: center;
+      background: var(--light-color);
+      border-radius: rem(32);
+      margin-left: rem(42);
+   }
+   // .modal__avatar
+   &__avatar {
+      width: rem(160);
+      height: rem(160);
+      margin-top: rem(-20);
+      margin-right: rem(33);
+      margin-bottom: rem(-20);
+      margin-left: rem(-36);
+   }
+   // .modal__name
+   &__name {
+      font-weight: 700;
+      font-size: rem(32);
+      text-align: center;
+      color: #a600a8;
+      margin-right: auto;
+   }
+   // .modal__money
+   &__money {
+      margin: rem(12);
+      font-weight: 700;
+      font-size: rem(40);
+      line-height: 140%;
+      background: linear-gradient(180deg, #cb36cd 0%, #a600a8 100%);
+      border-radius: rem(24);
+      align-self: stretch;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: rem(20) rem(40);
+      min-width: rem(226);
+   }
+   // .modal__message
+   &__message {
+      font-weight: 600;
+      font-size: rem(36);
+      line-height: 144%;
+      color: #111;
+      padding: 0 rem(56) rem(64);
+      background: #ffffff;
+      border-radius: 0 0 rem(32) rem(32);
+      margin-top: rem(-1);
+   }
+}

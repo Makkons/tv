@@ -1,4 +1,5 @@
 .aside {
+   max-height: 100vh;
    // .aside__chat
    &__chat {
    }
@@ -7,6 +8,8 @@
    box-shadow: rem(-1) 0 0 0 rgba(255, 255, 255, 0.1);
    background: rgba(17, 17, 17, 0.4);
    padding: rem(20) rem(20) rem(15);
+   overflow: hidden;
+   height: 100%;
    // .chat__head
    &__head {
       display: flex;
@@ -30,7 +33,12 @@
    }
    // .chat__variation
    &__variation {
+      display: none;
       color: #cb36cd;
+      &.active {
+         display: block;
+         animation: shake 6 ease-in 100ms, opacity 1 ease-in 600ms;
+      }
    }
    // .chat__title
    &__title {
@@ -50,10 +58,12 @@
    // .chat__item
    &__item {
       padding: rem(16) rem(20);
-      &:not(:last-child) {
-         margin-bottom: rem(16);
+      &:not(:last-child):not(:first-child) {
+         border-bottom: rem(1) solid transparent;
+         border-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 20%) 50%, rgba(255, 255, 255, 0) 100%);
+         border-image-slice: 1;
       }
-      &.active {
+      &:first-child {
          background: linear-gradient(180deg, #cb36cd 0%, #a600a8 100%);
       }
    }
@@ -110,5 +120,28 @@
    &__image {
       width: rem(80);
       height: auto;
+   }
+}
+
+@keyframes shake {
+   from {
+      transform: translateY(0);
+   }
+   20% {
+      transform: translateY(-15%);
+   }
+   80% {
+      transform: translateY(15%);
+   }
+   to {
+      transform: translateY(0);
+   }
+}
+@keyframes opacity {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
    }
 }

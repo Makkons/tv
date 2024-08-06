@@ -1,6 +1,7 @@
 .header {
-   .container {
+   &__container {
       overflow: hidden;
+      margin: rem(24) rem(20) rem(16);
    }
    &__wrapper {
       display: flex;
