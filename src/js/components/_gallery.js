@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
          loop: true,
          autoplay: {
             delay: timer * 1000,
+            disableOnInteraction: false,
          },
          pagination: {
             el: '.swiper-pagination',

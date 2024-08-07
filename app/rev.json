@@ -1,6 +1,6 @@
 {
-  "css/main.css": "css/main-451c421ae5.css",
-  "css/vendor.css": "css/vendor-9fc54593f3.css",
+  "css/main.css": "css/main-f59c46c0f5.css",
+  "css/vendor.css": "css/vendor-78f01d6f68.css",
   "fonts/NotoSans-Bold.woff2": "fonts/NotoSans-Bold-1aad4fbefa.woff2",
   "fonts/NotoSans-BoldItalic.woff2": "fonts/NotoSans-BoldItalic-1da01dfedf.woff2",
   "fonts/NotoSans-Italic.woff2": "fonts/NotoSans-Italic-63bdb17a6c.woff2",
@@ -38,5 +38,5 @@
   "img/svg/pointer.svg": "img/svg/pointer-b1fa17b536.svg",
   "img/svg/qr-mini.svg": "img/svg/qr-mini-f992c16329.svg",
   "img/svg/qr.svg": "img/svg/qr-9771aa7382.svg",
-  "js/main.js": "js/main-2cf1e86ee4.js"
+  "js/main.js": "js/main-17a30c2acd.js"
 }

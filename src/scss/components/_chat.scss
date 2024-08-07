@@ -54,6 +54,8 @@
    }
    // .chat__list
    &__list {
+      margin-left: rem(-20);
+      margin-right: rem(-20);
    }
    // .chat__item
    &__item {
@@ -99,6 +101,7 @@
    }
    // .chat__money
    &__money {
+      font-size: rem(20);
       align-self: flex-start;
       margin-left: auto;
    }

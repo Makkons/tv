@@ -23,9 +23,9 @@ export const styles = () => {
       grid: true,
       overrideBrowserslist: ["last 5 versions"]
     }))
-    .pipe(gulpif(app.isProd, cleanCSS({
+    .pipe(cleanCSS({
       level: 2
-    })))
+    }))
     .pipe(app.gulp.dest(app.paths.buildCssFolder, { sourcemaps: '.' }))
     .pipe(browserSync.stream());
 };
